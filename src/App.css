@@ -1,0 +1,29 @@
+*, *::before, *::after {
+    box-sizing: border-box;  
+  }
+
+
+@media (min-width: 576px) {
+
+    .newBody {
+        margin: auto 0;
+        display: flex;
+        flex-direction: row;
+    }
+  
+    .intro, .main {
+      min-height: 100vh;
+    }
+
+    .middleText {
+        font-size: 2.75rem;
+    }
+
+    .main {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+
+  }
+  

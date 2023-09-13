@@ -1,0 +1,36 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/drirexwsz/image/upload/v1694015244/20230602_CJLIVE_ProcrastinationCure_Micro_PODCAST_Thumb_16x9_yzpguv.jpg");
+    background-size: cover;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(3, 3, 3, 3);
+    min-height: 250px;
+}
+
+.topText {
+    border-top: 5px solid #266579;
+    margin: 0 auto; 
+    padding-top: 0.25em;
+    font-size: 0.7rem;
+    order: 1;
+}
+
+.middleText {
+    order: 2;
+}
+
+.bottomText {
+    order: 3;
+}
+
+@media (min-width: 576px) { 
+    .intro {
+        background-size: cover;
+        background-position: 50%;
+    }
+
+}

@@ -1,0 +1,61 @@
+.main {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.title {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.callToAction {
+    margin: 0 auto;
+    color: #D4681C;
+    font-weight: 900px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+input {
+    padding: 0.4em;
+    margin-bottom: 0.75em;
+    border: 2px solid #446677;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+    border-color: #D4681C;
+}
+
+.btn {
+    padding: 0.4em 0;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(68,102,119,1) 58%, rgba(0,212,255,1) 100%);
+}
+
+.btn-primary:hover {
+    /* need to linear gradient for this */
+    background-color: #D4681C;
+}
+
+.disclaimer {
+    font-size: 10px;
+    margin: 0.5em auto;
+}
+
